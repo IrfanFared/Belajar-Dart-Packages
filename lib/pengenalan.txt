@@ -1,0 +1,16 @@
+ -Irfan  dart packages adalah  kumpulan progam dart  yang disususn  dalam unit  independen dan  dapat digunakan 
+ kempali.Setiap packages berisi fungsi  dan kelas  yang berkaitan  denga suatu utilitas atau tujuan tertent,serta kode yang sudah di kompilasi
+
+
+Struktur dart packages
+
+1.pubspec.yaml: File ini berisi metadata tentang package, termasuk nama, versi, penulis, dan daftar dependency yang diperlukan
+2.lib: Direktori ini menyimpan kode publik dari package. Minimal, harus ada satu file dengan nama <package-name>.dart yang berfungsi sebagai titik masuk untuk mengakses semua fungsionalitas
+3.test: Direktor ini berisi unit tests untuk memastikan bahwa fungsionalitas dalam package bekerja dengan baik
+
+
+Mengelola Dart Packages
+Dart menggunakan pub, sebuah package manager yang memudahkan instalasi, pengorganisasian, dan manajemen pustaka pihak ketiga serta dependency13. Untuk menggunakan package, langkah-langkahnya adalah:
+1.Membuat File pubspec.yaml: Daftar semua dependency yang diperlukan.
+2.Menjalankan Perintah: Gunakan dart pub get untuk mengunduh semua dependency yang tercantum dalam pubspec35.
+3.Mengimpor Library: Setelah package diinstal, Anda dapat mengimpornya ke dalam kode Dart menggunakan sintaks import 'package:<package-name>'.

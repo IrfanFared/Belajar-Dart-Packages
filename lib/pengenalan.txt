@@ -14,3 +14,6 @@ Dart menggunakan pub, sebuah package manager yang memudahkan instalasi, pengorga
 1.Membuat File pubspec.yaml: Daftar semua dependency yang diperlukan.
 2.Menjalankan Perintah: Gunakan dart pub get untuk mengunduh semua dependency yang tercantum dalam pubspec35.
 3.Mengimpor Library: Setelah package diinstal, Anda dapat mengimpornya ke dalam kode Dart menggunakan sintaks import 'package:<package-name>'.
+
+
+Library dalam Dart adalah sebuah unit kode yang berisi sekumpulan kelas, fungsi, dan konstanta yang dapat digunakan dalam program. Library membantu dalam mengorganisir dan memisahkan kode menjadi bagian-bagian yang lebih kecil dan lebih terstruktur, sehingga memudahkan pengelolaan dan pemeliharaan.
